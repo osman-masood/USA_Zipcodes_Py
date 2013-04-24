@@ -3,9 +3,11 @@
 <h3>Simple Python Script for Getting USA Zipcode Info</h3>
 
 
-<h4>Usage</h4>
+This module gets its data from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a>. 
 
-This module gets the data from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a>. It has info for about 43,204 zipcodes and is based off of year 2000 US Census Bureau data.
+It has info for 43,204 zipcodes and is based off of year 2000 US Census Bureau data.
+
+<h4>Usage</h4>
 
     from USA_Zipcodes import get_zipcodes
     zipcode_data = get_zipcodes()  
