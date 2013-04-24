@@ -5,10 +5,11 @@
 
 <h4>Usage</h4>
 
-This module gets the data from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a>.
+This module gets the data from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a>. It has info for about 43,204 zipcodes and is based off of year 2000 US Census Bureau data.
 
     from USA_Zipcodes import get_zipcodes
-    zipcode_data = get_zipcodes()
+    zipcode_data = get_zipcodes()  
+    # zipcode_data is huge:
     #  [{'is_dst_observed': True, 'city': 'Portsmouth', 'state': 'NH', 'zip': '00210', 'latitude': 43.005895000000002, 'timezone': -5, 'longitude': -71.013202000000007}, ...]
 
 It also includes an (unrelated) useful function for converting a CSV file to a Python table (array of arrays):
