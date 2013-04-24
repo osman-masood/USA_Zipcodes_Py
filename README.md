@@ -5,7 +5,7 @@
 
 <h4>Usage</h4>
 
-This module downloads the zipcode database from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a> and returns an array of all the data. Simple as that.
+This module gets the data from <a href="http://www.boutell.com/zipcodes/">http://www.boutell.com/zipcodes/</a>.
 
     from USA_Zipcodes import get_zipcodes
     zipcode_data = get_zipcodes()
